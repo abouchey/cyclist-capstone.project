@@ -46,6 +46,8 @@ The stat is stored appropriately and is now prepared for analysis. I have made m
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?
 
 First of all, I compared the casual riders vs members each month and what days they use them most. 
-![image](
+![image](https://i.imgur.com/j92ds19.png)
+![image](https://i.imgur.com/NUSsLTP.png)
+![image](https://i.imgur.com/2nc4KzK.png)
 
 
