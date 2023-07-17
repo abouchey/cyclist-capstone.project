@@ -37,7 +37,8 @@ There are 12 files with the naming convention of YYYYMM-divvy-trip data and each
 I started my process in Google Sheets. Some of the files were simply too big to be uploaded so I split the CSV files and then combine them again after I was done with the cleaning. This made the process more manageable in the long run. My first step was to gather more relevant data using the formula of =WEEKDAY (C2, 1) to calculate a new column named day_of_week. Then used another formula of =D2-C2 to determine the ride_length. Formating to duration to calculate how long each of the rides was.
 ### Data Cleaning
 1. All rows having missing values are deleted.
-2. Trips with a duration of less than a minute and longer than a day are excluded. 
+2. Trips with a duration of less than a minute and longer than a day are excluded.
+3. End row count is 101,825
 
 
 ## Analyze and Share
@@ -49,5 +50,29 @@ First of all, I compared the casual riders vs members each month and what days t
 ![image](https://i.imgur.com/j92ds19.png)
 ![image](https://i.imgur.com/NUSsLTP.png)
 ![image](https://i.imgur.com/2nc4KzK.png)
+
+__Months:__ When it comes to monthly trips, both casual and members are very similar in behavior, with far more trips in the spring and summer, when the weather is nicer and fewer in the winter. While there is a significant gap between casual and members most of the time. The gap does get the closest to closing during the months of July and August. Perhaps due to the influx of people not from the city. 
+__Days of Week:__ When the days of the week are compared, keep in mind for these graphs 1 is Sunday and 7 is Saturday. 
+
+We can infer from these graphs that members may be using bikes for commuting to and from work on the weekdays while casual riders are using bikes throughout the day, more frequently over the weekend, and during summer months.
+
+This hypnosis can also be further solidfied when looking at the average trip length between members and casual riders. 
+
+![image](https://i.imgur.com/KexwLFZ.png)
+
+Summary:
+
+Casual: Prefer to use the bikes for longer periods of time, more often in the spring and summer and on weekends. They also tend to have longer trips, then members. 
+Members: Tend to take short trips during the week during the time of commuting too and from work, still during the spring and summer with a small amount in the winter months. 
+
+## Act
+After identifying a couple of differences between the two different riders I have concluded some ideas as to how to create more members from the casual riders. 
+1. The best time to recruit new members would be during the spring/summer when the volume of riders is the highest.
+2. Casual riders are more active during the week so might be more intrigued by the idea of a weekend pass and since it is most popular during the spring and summer a seasonal pass.
+3. Current members tend to use bikes for short periods while casual use them for longer periods. Offering discounts to members for longer trips to make the membership, more worth it in their eyes. 
+
+
+
+
 
 
