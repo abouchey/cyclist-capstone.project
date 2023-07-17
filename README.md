@@ -28,7 +28,7 @@ Three questions will guide the future marketing program:
 Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
 ## Prepare
 ### Data Source
-I will be using Cyclistic's historical trip data to analyze and identify trends from Jan 2022 to Dec 2022 which can be downloaded from [divvy_tripdata] ( https://divvy-tripdata.s3.amazonaws.com/index.html). 
+I will be using Cyclistic's historical trip data to analyze and identify trends from Jan 2022 to Dec 2022 which can be downloaded from [divvy_tripdata] (https://divvy-tripdata.s3.amazonaws.com/index.html). 
 This is a public data set that can be used to explore how different customer types are using Cyclistic bikes. Though it should be noted that data-privacy issues prohibit from using riders' personally identifiable information. This means we cannot determine whether or not casual have bought multiple single passes. 
 ### Data Organization 
 There are 12 files with the naming convention of YYYYMM-divvy-trip data and each file includes information for one month, such as the ride_id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider is a member or not. The columns names are ride_id, rideable_type, stared_at, ended_at, start_station_name, star_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual. 
